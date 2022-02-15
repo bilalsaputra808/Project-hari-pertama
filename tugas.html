@@ -1,0 +1,30 @@
+<html>
+<HEAD><TITLE>Java Script</TITLE>
+</HEAD>
+<body>
+<p><script languange="Javascript">
+    function tekan()
+{
+    var namastr=(document.ffrom.nama.value);
+    var alamatstr=(document.ffrom.alamat.value);
+    document.ffrom.onama.value=alamatstr;
+}
+</script>
+<form name="ffrom"></form>
+    <h1>Input Data Dengan Objek</h1>
+    <hr>
+    <PRE>
+    Nama Anda : <input type="text" size="11" name="nama">
+    Alamat    : <input>
+    Ket :  <textarea name="ket" rows="3" cols="30">
+    </textarea>
+    <br>
+    <input type="button" value="kirim" onclick="tekan()">
+    <input type="reset" value="ulang"><br>
+    <h2>Output</h2>
+    <input type="text" name="onama" size="12"><br>
+    <input type="text" name="oalamat" size="25"><br>
+    <textare name="oket" rows="3" cols="30"></textare>
+</PRE>    
+</body>
+</html>
